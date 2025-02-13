@@ -1,0 +1,249 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header {
+        border-bottom: none;
+        padding-top: $gap;
+        &__input {
+            display: none;
+        }
+        &__menu {
+            display: none;
+        }
+    }
+
+    .logo {
+        &__img {
+            width: 99px;
+        }
+    }
+
+    .menu {
+        row-gap: 14px;
+        margin-bottom: $gap;
+        &-mobile {
+            display: flex;
+            align-items: center;
+            gap: $gap;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__text {
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            &_catalog {
+                margin-top: 82px;
+                margin-bottom: 170px;
+            }
+        }
+        &__slogan {
+            font-size: 16px;
+            line-height: 32px;
+        }
+        &__link {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        &__item {
+            grid-column: 1 / -1;
+            font-size: 28px;
+            line-height: 34px;
+            height: 375px;
+            &_big {
+                height: 243px;
+            }
+        }
+        &-box {
+            padding-top: $gap;
+        }
+    }
+
+    .product {
+        &-cards {
+            width: 343px;
+        }
+        &_content {
+            flex-direction: column;
+            width: 100%;
+        }
+        &__special-offer {
+            font-size: 24px;
+            line-height: 29px;
+            margin-top: 32px;
+        }
+        &__name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__description {
+            margin-bottom: 8px;
+        }
+        &__special-new-price,
+        &__special-old-price {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__special-content {
+            row-gap: $gap;
+        }
+        &__catalog-price {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &-box {
+            row-gap: $gap;
+        }
+        &__img {
+            width: 343px;
+            height: 227px;
+        }
+    }
+
+    .catalog {
+        &__title {
+            font-size: 24px;
+            line-height: 29px;
+            margin-top: 36px;
+        }
+    }
+
+    .go-catalog {
+        margin-top: 36px;
+        margin-bottom: $gap;
+    }
+
+    .footer {
+        padding-bottom: $gap;
+        &__content {
+            justify-content: center;
+            gap: 71px;
+        }
+        &__info {
+            gap: 100px;
+        }
+    }
+
+    .menu-box {
+        margin-top: $gap;
+    }
+
+    .catalog-actions {
+        margin-bottom: $gap;
+    }
+
+    .filter-button {
+        font-size: 14px;
+        line-height: 17px;
+        width: 184px;
+        &-wrapper {
+            order: 2;
+        }
+    }
+
+    .filter {
+        &__item {
+            font-size: 14px;
+            line-height: 17px;
+        }
+        &__item-2 {
+            width: 203px;
+        }
+        &__form {
+            right: auto;
+        }
+        &__content {
+            flex-wrap: nowrap;
+            max-height: 830px;
+            width: 190px;
+        }
+        &__button {
+            align-self: center;
+        }
+    }
+
+    .title-cart {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        margin-top: 82px;
+        margin-bottom: 170px;
+    }
+
+    .cart {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 92px;
+        &__name-box {
+            display: none;
+        }
+        &__img {
+            display: none;
+        }
+        &__info {
+            &_title {
+                font-size: 18px;
+                line-height: 22px;
+            }
+            &_description {
+                font-size: 12px;
+                line-height: 15px;
+            }
+            &_price {
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+        &__item {
+            padding-top: 18px;
+            padding-bottom: 24px;
+            justify-content: normal;
+            &_amount {
+                padding-top: 10px;
+                padding-bottom: 12px;
+            }
+        }
+
+        &__button-box {
+            gap: 14px;
+        }
+        &__clear {
+            font-size: 12px;
+            line-height: 15px;
+            padding-left: 25px;
+            padding-right: 27px;
+            text-wrap: nowrap;
+            width: 166px;
+        }
+        &__continue {
+            font-size: 12px;
+            line-height: 15px;
+            text-wrap: nowrap;
+            width: 163px;
+        }
+        &__form {
+            width: 343px;
+        }
+        &__user-box {
+            padding-right: 28px;
+        }
+    }
+}
